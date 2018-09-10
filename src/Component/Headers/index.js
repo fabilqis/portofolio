@@ -21,7 +21,7 @@ class Headers extends React.Component {
         <div>
             <Container>
                 <div >
-                    <img src={require("./eng.png")}/>
+                    <img src={require("./eng.png")} alt="imgs"/>
                 </div>
                 <div style={styles.bodies}>
                     <p>Fadillah Bilqis</p>
@@ -33,9 +33,9 @@ class Headers extends React.Component {
                 </div>
                 <div style={styles.footers}>
                 <List horizontal >
-                    <List.Item><a className="text-dark" href="https://www.linkedin.com/in/fadillahbilqis/" target="_blank" rel="noopener norefferer">LinkedIn</a></List.Item>
-                    <List.Item><a className="text-dark" href="https://github.com/fabilqis" target="_blank" rel="noopener norefferer">Github</a></List.Item>
-                    <List.Item><a className="text-dark" href="https://www.behance.net/jo_anne" target="_blank" rel="noopener norefferer">Behance</a></List.Item>
+                    <List.Item><a className="text-dark" href="https://www.linkedin.com/in/fadillahbilqis/" target="_blank" rel="noopener noreferrer">LinkedIn</a></List.Item>
+                    <List.Item><a className="text-dark" href="https://github.com/fabilqis" target="_blank" rel="noopener noreferrer">Github</a></List.Item>
+                    <List.Item><a className="text-dark" href="https://www.behance.net/jo_anne" target="_blank" rel="noopener noreferrer">Behance</a></List.Item>
                 </List>
                 </div>
             </Container>
