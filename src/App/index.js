@@ -35,7 +35,7 @@ class App extends React.Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                    <Grid  reversed='mobile' columns='equal' style={styles.footers}>
+                    <Grid columns='equal' style={styles.footers}>
                             <Grid.Column><a className="text-dark" href="https://www.linkedin.com/in/fadillahbilqis/" target="_blank" rel="noopener noreferrer">LinkedIn</a></Grid.Column>
                             <Grid.Column><a className="text-dark" href="https://github.com/fabilqis" target="_blank" rel="noopener noreferrer">Github</a></Grid.Column>
                             <Grid.Column><a className="text-dark" href="https://www.behance.net/jo_anne" target="_blank" rel="noopener noreferrer">Behance</a> </Grid.Column>
