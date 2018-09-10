@@ -1,17 +1,21 @@
 import React from 'react'
 import { Container, List } from 'semantic-ui-react';
 
+
 const styles = {
    
     bodies : {
         fontSize : "3em",
-        fontFamily: 'Lalezar'
+        fontFamily: 'Lalezar',
+        textAlign: 'center'
     },
     footers : {
-        fontSize : "4em"
+        fontSize : "4em",
+        textAlign: 'center'
     },
     foots : {
-        fontSize : '1.2em'
+        fontSize : '1.2em',
+        textAlign: 'center'
     }
 }
 
@@ -20,9 +24,6 @@ class Headers extends React.Component {
         return(
         <div>
             <Container>
-                <div >
-                    <img src={require("./eng.png")} alt="imgs"/>
-                </div>
                 <div style={styles.bodies}>
                     <p>Fadillah Bilqis</p>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Headers from '../Component/Headers'
-import { Grid } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react'
+import images from '../Component/Headers/eng.png'
 
 const styles = {
     parents: {
@@ -19,8 +20,17 @@ class App extends React.Component {
         return (
         <div style={styles.position}>
             <div style={styles.child}>
-                <Grid centered columns={1}> 
+                <Grid centered>
+                <Grid.Row>
+                    <Grid.Column mobile={16} tablet={8} computer={4}>
+                        <img src={images} alt="imgs"/>
+                    </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                    <Grid.Column mobile={16} tablet={8} computer={4}>
                         <Headers/>
+                    </Grid.Column>
+                    </Grid.Row>
                 </Grid>
             </div>
         </div>
