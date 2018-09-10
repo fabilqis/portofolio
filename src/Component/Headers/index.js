@@ -5,7 +5,7 @@ const styles = {
    
     bodies : {
         fontSize : "3em",
-        fontFamily: 'Russo One'
+        fontFamily: 'Lalezar'
     },
     footers : {
         fontSize : "4em"
