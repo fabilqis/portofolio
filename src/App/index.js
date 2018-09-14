@@ -1,7 +1,9 @@
 import React from 'react'
 import Headers from '../Component/Headers'
-import { Grid, List } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 import images from '../Component/Headers/eng.png'
+import resume from './resume.pdf'
+
 
 const styles = {
     parents: {
@@ -39,6 +41,7 @@ class App extends React.Component {
                             <Grid.Column><a className="text-dark" href="https://www.linkedin.com/in/fadillahbilqis/" target="_blank" rel="noopener noreferrer">LinkedIn</a></Grid.Column>
                             <Grid.Column><a className="text-dark" href="https://github.com/fabilqis" target="_blank" rel="noopener noreferrer">Github</a></Grid.Column>
                             <Grid.Column><a className="text-dark" href="https://www.behance.net/jo_anne" target="_blank" rel="noopener noreferrer">Behance</a> </Grid.Column>
+                            <Grid.Column><a className="text-dark" href="https://merahlabs.id/resume" target="_blank" rel="noopener noreferrer">Behance</a> </Grid.Column>
                     </Grid>
                     </Grid.Row>
                 </Grid>
